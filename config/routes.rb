@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
- 
-  # get 'welcome/index'
+
+ get "/users" => "welcome#index"
+ get "/users/:id" => "welcome#show"
   # resources :users
   resources :stories
 

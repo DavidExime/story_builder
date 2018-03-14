@@ -1,2 +1,7 @@
 <h1>Welcome#index</h1>
 <p>Find me in app/views/welcome/index.html.erb</p>
+
+<% @users.each do |u| %>
+<div><a href="/users/<%= u.id %>"><%= u.username %></a></div>
+
+<% end %>
