@@ -10,7 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180314161254) do
+ActiveRecord::Schema.define(version: 20180314184824) do
+
+  create_table "stories", force: :cascade do |t|
+    t.string "title"
+    t.string "genre"
+    t.string "content"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "stories_users", id: false, force: :cascade do |t|
+    t.integer "story_id", null: false
+    t.integer "user_id", null: false
+    t.index ["story_id", "user_id"], name: "index_stories_users_on_story_id_and_user_id"
+    t.index ["user_id", "story_id"], name: "index_stories_users_on_user_id_and_story_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false

@@ -9,6 +9,15 @@
   </head>
 
   <body>
+    <nav>
+        <ul>
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "Stories", stories_path %></li>
+          <li><%= link_to "New Story", new_story_path %></li>
+          <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
+        </ul>
+
+    </nav>
 
 
 

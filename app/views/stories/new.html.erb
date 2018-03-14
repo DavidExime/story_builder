@@ -1,0 +1,13 @@
+<h2>New Story Form</h2>
+
+
+<div>Create a story</div>
+
+<%= form_for @story do |s| %>
+<div>
+	<div>Title: <%= s.text_field :title %><br></div>
+	<div>Genre: <%= s.text_field :genre %><br></div>
+	<div>Content: <%= s.text_area :content %><br></div>
+	<div><%= s.submit %></div>
+<% end %>
+</div>

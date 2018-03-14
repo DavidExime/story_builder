@@ -1,0 +1,6 @@
+<h1>List Of Stories</h1>
+
+<% @stories.each do |s| %>
+	<a href="/stories/<%= s.id %>"><div>Title: <%= s.title %><br></div></a>
+	<div>Genre: <%= s.genre %></div>
+<% end %>
