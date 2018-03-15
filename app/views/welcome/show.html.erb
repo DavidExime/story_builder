@@ -1,1 +1,10 @@
-<%= @user.fname %>
+<%= @user.username %><br>
+
+<div>MY STORIES</div>
+
+<% @user.stories.each do |s| %>
+	<div><a href="/stories/<%= s.id %>"><%= s.title %></a></div>
+<% end %>
+
+<%= link_to 'Delete Account', user_registration_path, method: :delete %>
+<%= link_to 'Update Account', edit_user_registration_path %>
