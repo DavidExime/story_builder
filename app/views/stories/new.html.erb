@@ -5,12 +5,19 @@
 
 <%= form_for @story do |s| %>
 <div id='formForStory'>
-	<div class='fieldsNew'>Title:</div>
-	<div id='box1'><%= s.text_field :title %><br></div>
+	<div class='fieldsNew'>Title: <%= s.text_field :title, :class => 'title' %>	
+</div>
+
+	<br>
+
+
 	<div class='fieldsNew'>Genre:</div>
-	<div id='box2'><%= s.text_field :genre %><br></div>
+	<%= s.text_field :genre, :class => 'genre' %><br>
 	<div class='fieldsNew'>Content: </div>
-	<div id='box3'><%= s.text_area :content, :class => 'content'%><br></div>
+	<%= s.text_area :content, :class => 'content'%><br>
 	<div id='submitNew'><%= s.submit %></div>
 </div>
 <% end %>
+
+
+
