@@ -41,7 +41,8 @@ h1 span { display:inline-block; animation:float .2s ease-in-out infinite; }
   33%{ transform:translateY(-1px) rotate(-2deg); }
   66%{ transform:translateY(1px) rotate(2deg); }
 }
-body:infinite span { animation:bounce 100s; }
+body:infinite span { animation:bounce 1s; }
+
 
 @keyframes bounce {
   0% { transform:translate(0); }
