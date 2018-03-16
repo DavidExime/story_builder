@@ -18,8 +18,8 @@
  #bubbleletters{
  	height: 200px;
  	width: 100%;
- 	border: 1px solid black;
  	text-align: center;
+  background: yellow;
  }
 
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
@@ -70,11 +70,9 @@ h1 span:nth-child(14){ animation-delay:.65s; }
 
 
 #letters{
-	height: 650px;
-    width: 670px;
-	border: 2px solid white;
+	height: 200px;
+  width: 670px;
 	margin: auto;
 	margin-left:
-	/*opacity: 0.5;
-}
+	background: yellow;
 }
