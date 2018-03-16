@@ -1,13 +1,16 @@
-<h2>New Story Form</h2>
+<div id='newStoryHead'><h2>Create A Story</h2></div>
 
 
-<div>Create a story</div>
+
 
 <%= form_for @story do |s| %>
-<div>
-	<div>Title: <%= s.text_field :title %><br></div>
-	<div>Genre: <%= s.text_field :genre %><br></div>
-	<div>Content: <%= s.text_area :content %><br></div>
-	<div><%= s.submit %></div>
-<% end %>
+<div id='formForStory'>
+	<div class='fieldsNew'>Title:</div>
+	<div id='box1'><%= s.text_field :title %><br></div>
+	<div class='fieldsNew'>Genre:</div>
+	<div id='box2'><%= s.text_field :genre %><br></div>
+	<div class='fieldsNew'>Content: </div>
+	<div id='box3'><%= s.text_area :content, :class => 'content'%><br></div>
+	<div id='submitNew'><%= s.submit %></div>
 </div>
+<% end %>
