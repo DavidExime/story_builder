@@ -78,3 +78,15 @@ h1 span:nth-child(14){ animation-delay:.65s; }
 	margin-left:
 	background: yellow;
 }
+#navbar{
+height:50px; 
+width:100%;
+display: inline-block;
+font-size: 30px;
+}
+
+.linktabs{
+display:inline-block;
+margin-left: 135px;
+font-family: 'signika';
+ } 
