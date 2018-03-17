@@ -43,7 +43,6 @@ h1 span { display:inline-block; animation:float .2s ease-in-out infinite; }
 }
 body:infinite span { animation:bounce 1s; }
 
-
 @keyframes bounce {
   0% { transform:translate(0); }
   5% { transform: rotateX(20deg) translateY(4px) rotate(6deg); }
@@ -74,24 +73,8 @@ h1 span:nth-child(14){ animation-delay:.65s; }
 
 #letters{
 	height: 200px;
-    width: 670px;
+  width: 670px;
 	margin: auto;
 	margin-left:
 	background: yellow;
-}
-
-#navbar{
-	height:50px; 
-	width:100%;
-	display: inline-block;
-	border: 1px solid black;
-	font-size: 30px;
-
-
-}
-
-.linktabs{
-	display:inline-block;
-	margin-left: 135px;
-	font-family: 'signika';
 }
