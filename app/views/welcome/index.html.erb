@@ -9,7 +9,7 @@
 <div id='wel4'><h3><%= @user.fname %>, feel free to browse through our comunity of writers.</h3></div>
 
 <% @users.each do |u| %>
-<div id='wel5'><a href="/users/#{u.id}"><%=u.username %></a></div>
+<div id='wel5'><a href="<%= "/users/#{u.id}" %>"><%=u.username %></a></div>
 <% end %>
 
 
