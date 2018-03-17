@@ -1,6 +1,7 @@
 class WelcomeController < ApplicationController
   def index
-  	@users = User.all
+  	@user = current_user
+    @users = User.all
   end
 
   def show
