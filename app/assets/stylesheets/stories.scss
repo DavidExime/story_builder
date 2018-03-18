@@ -12,12 +12,13 @@
 	width: 400px;
     height: 0px;
     position: relative;
-    -webkit-animation: mymove 6s infinite; 
-    animation: mymove 6s infinite;
+    -webkit-animation: swing 6s infinite; 
+    animation: swing 6s infinite;
     text-align: left;
 
 }
-@keyframes mymove {
+@keyframes swing {
+       
     0% {top: 0px; left: 0px; background: white; color: black;}
     25% {top: 0px; left: 1000px; background: white; color: red;}
     50% {top: 600px; left: 1000px; background: white; color: blue;}
@@ -85,3 +86,5 @@
 	margin-top: -9px;
 	margin-left: 300px;
 }
+
+
