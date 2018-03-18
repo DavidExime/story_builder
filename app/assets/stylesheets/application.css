@@ -90,3 +90,41 @@ display:inline-block;
 margin-left: 135px;
 font-family: 'signika';
  } 
+
+ #loginForm{
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 30px;
+ }
+
+ #login{
+  font-size: 30px;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  text-align: left;
+  margin: auto;
+  text-align: center;
+ }
+ #signup{
+  font-size: 30px;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  text-align: left;
+  margin: auto;
+  text-align: center;
+
+ }
+ #signForm{
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 30px;
+
+ }

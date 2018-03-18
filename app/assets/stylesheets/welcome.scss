@@ -35,8 +35,8 @@
 	font-size: 30px;
 	text-align: center;
 	margin-top: 20px;
-	// -webkit-animation: twomove 2s infinite; 
- //    animation: twomove 2s infinite;
+	-webkit-animation: rocker 2s infinite; 
+	animation: twomove 2s infinite;
 }
 #wel3{
 	height: 80px;
@@ -44,10 +44,10 @@
 	font-size: 30px;
 	text-align: center;
 	margin-top: 20px;
-	// -webkit-animation: twomove 2s infinite; 
- //    animation: twomove 2s infinite;
+	-webkit-animation: rocker 2s infinite; 
+    animation: twomove 2s infinite;
 }
-@keyframes twomove {
+@keyframes rocker {
      0% {top: 0px; left: 0px;}
     25% {top: 0px; left: 10px;}
     50% {top: 0px; left: 0px;}
@@ -69,6 +69,8 @@
 	text-align: center;
 	margin-top: 20px;
 }
+
+
 
 
 
