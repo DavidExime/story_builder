@@ -1,10 +1,26 @@
-<%= @user.username %><br>
+<div id="profHead"><h3><%= @user.username %>'s Profile</h3></div>
+<div id="profcont">
+	<div id='profname'>Hi, my name is <%= @user.fname %>.</div>
+	<div id='profuser'>On Story_builder people call me <%= @user.username %>.</div>
+	<div id='profemail'>Email me anytime at <%= @user.email %>.</div>
+</div>
 
-<div>MY STORIES</div>
 
-<% @user.stories.each do |s| %>
-	<div><a href="/stories/<%= s.id %>"><%= s.title %></a></div>
+
+<div id='pcont'>
+	<div><h4>MY STORIES</h4></div>
+
+	<% @user.stories.each do |s| %>
+	<div id='cont2'>
+		<div id='proftitle'>Title: <a href="/stories/<%= s.id %>"><%= s.title %></a></div>
+		<div id='profgenre'>Genre: <%= s.genre %></div>
+	</div>
+</div>
 <% end %>
+
+<div id='proflinks'>
 
 <%= link_to 'Delete Account', user_registration_path, method: :delete %>
 <%= link_to 'Update Account', edit_user_registration_path %>
+
+</div>
