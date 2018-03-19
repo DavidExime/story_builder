@@ -16,10 +16,10 @@
 
 
  #bubbleletters{
- 	height: 200px;
+ 	height: 100px;
  	width: 100%;
  	text-align: center;
-  background: yellow;
+  background: orange;
  }
 
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
@@ -76,20 +76,23 @@ h1 span:nth-child(14){ animation-delay:.65s; }
   width: 670px;
 	margin: auto;
 	margin-left:
-	background: yellow;
+	background-color: yellow;
 }
-#navbar{
+/*#navbar{
 height:50px; 
 width:100%;
 display: inline-block;
+border-radius: 25px;
 font-size: 30px;
+font-family:'Chalkboard'; 
 }
 
 .linktabs{
 display:inline-block;
 margin-left: 135px;
-font-family: 'signika';
- } 
+font-family:'Chalkboard';
+border-radius: 25px;
+ } */
 
  #loginForm{
   height: 200px;

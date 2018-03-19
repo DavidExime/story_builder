@@ -22,19 +22,18 @@
       <nav>
         
           <% if (user_signed_in?) %>
-          <div class="linktabs"><%= link_to "Home", root_path %></div>
-          <div class="linktabs"><%= link_to "Stories", stories_path %></div>
-          <div class="linktabs"><%= link_to "New Story", new_story_path %></div>
-          <div class="linktabs"><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></div>
-          <div class="linktabs"><a href="/users/<%= current_user.id %>">My Profile</a></div>
+          <div class="navbar_item"><%= link_to "Home", root_path %></div>
+          <div class="navbar_item"><%= link_to "Stories", stories_path %></div>
+          <div class="navbar_item"><%= link_to "New Story", new_story_path %></div>
+          <div class="navbar_item"><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></div>
+          <div class="navbar_item"><a href="/users/<%= current_user.id %>">My Profile</a></div>
           <% end %>
 
           <% if (!user_signed_in?) %>
-          <div class="linktabs"><%= link_to "Login", new_user_session_path %></div>
+          <div class="navbar_item"><%= link_to "Login", new_user_session_path %></div>
           <% end %>
         
-
-    </nav>
+        </nav>
   </div>
 
 
@@ -44,3 +43,9 @@
     <%= yield %>
   </body>
 </html>
+
+
+
+
+
+

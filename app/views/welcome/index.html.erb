@@ -1,3 +1,5 @@
+<div id="sonic"></div>
+<!-- <div class = 'layer'>  -->
 <div id="welcome_greet"><%= @user.fname %>, welcome to Story_Builder!</div>
 
 <div id='stp'><h3>Story_Builder is a collabortive space for kids who like to read and write stories.</h3></div>
@@ -10,6 +12,10 @@
 
 <% @users.each do |u| %>
 <div id='wel5'><a href="<%= "/users/#{u.id}" %>"><%=u.username %></a></div>
-<% end %>
 
+
+<% end %>
+<!-- </div> -->
+
+<!-- <div id="sonic"></div> -->
 
