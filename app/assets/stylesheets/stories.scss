@@ -87,4 +87,46 @@
 	margin-left: 300px;
 }
 
+#showTitle{
+	font-size: 30px;
+	width: 400px;
+    height: 0px;
+    text-align: center;
+    margin-left: 506px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+#showGenre{
+	height: 60px;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	margin-top: -20px;
+}
+#showContent{
+	font-size: 20px;
+	width: 100%;
+	height: 275px;
+	background: orange;
+	color: black;
+	margin-left: 10px;
+	margin-top: px;
+	overflow: none;
+}
+
+
+// <div id='showTitle'><h3><%= @current_story.title %></h3><br></div>
+// <div id='showGenre'><%= @current_story.genre %><br></div>
+// <div id='showContent'><%= @current_story.content %></div>
+
+// <div id='authors'><%= @current_story %></div>
+
+
+// <div id='showAdd'>Contribute to <%= @current_story.title %></div>
+// <div class='adding'>
+
 
