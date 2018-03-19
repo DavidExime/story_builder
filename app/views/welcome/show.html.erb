@@ -11,12 +11,21 @@
 	<div><h4>MY STORIES</h4></div>
 
 	<% @user.stories.each do |s| %>
-	<div id='cont2'>
-		<div id='proftitle'>Title: <a href="/stories/<%= s.id %>"><%= s.title %></a></div>
-		<div id='profgenre'>Genre: <%= s.genre %></div>
+	  <div class='cont2'>
+		<div id='proftitle'>
+			Title: 
+			<a href="/stories/<%= s.id %>">
+				<%= s.title %>
+			</a>
+		</div>
+		<div id='profgenre'>
+			Genre: <%= s.genre %>
+		</div>
+		<br>
 	</div>
+
+	<% end %>
 </div>
-<% end %>
 
 <div id='proflinks'>
 

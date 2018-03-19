@@ -87,15 +87,37 @@
 	margin-left: 300px;
 }
 
-#storylist{
-	text-align: center;
-	font-size: 100px
+#showTitle{
+	font-size: 30px;
+	width: 400px;
+    height: 0px;
+    text-align: center;
+    margin-left: 506px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
 }
 
-
-#titleList{
+#showGenre{
+	height: 60px;
+	width: 100%;
+	font-size: 30px;
 	text-align: center;
+	margin-top: 20px;
+	margin-top: -20px;
 }
+#showContent{
+	font-size: 20px;
+	width: 100%;
+	height: 275px;
+	background: orange;
+	color: black;
+	margin-left: 10px;
+	margin-top: px;
+	overflow: none;
+}
+
 
 #storyGenre{
 	text-align: center;

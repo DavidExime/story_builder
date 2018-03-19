@@ -16,16 +16,28 @@ class StoriesController < ApplicationController
 			redirect_to "/stories/new"
 		else	
 			mystory.save(story_params)
-			current_user.stories << Story.last #connects the story and user	
+			current_user.stories << Story.last 
         	flash[:message] = 'You created a story'
         	redirect_to "/stories"
         end
 	end
 
 	def show
-		@story = Story.find_by_id(params[:id])
-
+		@user = current_user
+		@current_story = Story.find_by_id(params[:id])
+		@authors = @current_story.users
 	end
+
+	def update
+	  story = Story.find(params[:id])
+      story.content << params[:story][:content]
+      if story.save
+      	story.users << current_user
+        redirect_to "/stories/#{story.id}"
+      else 
+        render "/"
+      end
+    end
 
 
 

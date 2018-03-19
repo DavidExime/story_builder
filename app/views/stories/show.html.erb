@@ -1,3 +1,16 @@
-<h1><%= @story.title %></h1><br>
-<h3><%= @story.genre %></h3><br>
-<div><%= @story.content %></div>
+<div id='showTitle'><h3>Title: <%= @current_story.title %></h3><br></div>
+<div id='showGenre'>Genre: <%= @current_story.genre %><br></div>
+<div id='showContent'><%= @current_story.content %></div>
+
+<div id='authors'><%= @authors %></div>
+
+
+<div id='showAdd'>Contribute to <%= @current_story.title %></div>
+<div class='adding'>
+	<%= form_for(:story, :url => {:action => 'update', :id => @current_story.id}, method: :patch) do |f| %>
+	<%= f.text_area :content, placeholder: @current_story.content %>
+	
+	<br>
+	<%= f.submit 'add', :class =>'submit' %>
+	<% end %>
+</div>
