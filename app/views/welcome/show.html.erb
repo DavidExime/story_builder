@@ -10,7 +10,7 @@
 <div id='pcont'>
 	<div><h4>MY STORIES</h4></div>
 
-	<% @user.stories.each do |s| %>
+	<% @user.stories.uniq.each do |s| %>
 	  <div class='cont2'>
 		<div id='proftitle'>
 			Title: 

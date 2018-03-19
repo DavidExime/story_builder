@@ -23,9 +23,9 @@ class StoriesController < ApplicationController
 	end
 
 	def show
-		@user = current_user
+		
 		@current_story = Story.find_by_id(params[:id])
-		@authors = @current_story.users
+		@user = @current_story.users 
 	end
 
 	def update
