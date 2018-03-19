@@ -1,6 +1,9 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	background-color: orange;
+}
 
 #welcome_greet{
 	height: 80px;
@@ -11,6 +14,10 @@
 	-webkit-animation: mymove 25s infinite; 
     animation: mymove 25s infinite;
 }
+
+// .layer {
+// 	background-color: rgba(255,255,255,0.7);
+// }
 
 #stp{
 	height: 80px;
@@ -74,11 +81,12 @@
 	width: 500px;
 	font-size: 50px;
 	text-align: left;
-	margin-top: -10px;
+	margin-top: 30px;
 	margin-bottom: 10px;
 	margin-left: 465px;
 	-webkit-animation: mymove 25s infinite; 
     animation: mymove 25s infinite;
+    border: 1px solid black;
 }
 #profname{
 	height: 80px;
@@ -138,7 +146,62 @@
 	font-size: 30px;
 }
 
+#navbar{
+height:50px; 
+width:100%;
+display: inline-block;
+border-radius: 25px;
+font-size: 30px;
+font-family:'Signika';
+background-color: black; 
+}
 
 
+ .navbar{
+    display: inline;
+    background-color: black;
+   // font-family: 'Audiowide', cursive;
+   font-size: 1.5vmax;
+   text-decoration: none;
+   position: absolute;
+   top:13vmax;
+   left:31vmax;
+}
 
+.navbar_item {
+   display: inline;
+   margin: 5px;
+   padding: 5px;
+   margin-left: 118px;
+   border-radius: 25px;
+   color: black;
+   background-color: orange;
+   border: 2px solid black;
+   text-shadow: 1px 1px white;
+}
+
+.navbar_item a {
+	text-decoration: none !important;
+}
+
+.navbar_item:hover{
+   background-color: yellow;
+}
+
+#sonic{ 
+	background:url(../assets/rabbitflying.gif);
+	width: 100%;
+	height: 325px;
+	overflow: none;
+	animation: run 50.0s steps(500) infinite, slide 10s steps(500) infinite;
+	background-image: no-repeat;
+	margin-top: 20px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}
+@keyframes run {
+	from { background-position: 600% 0px, 0px, 0px, 0px; }
+	to { background-position: -600% 0px, 1000px, 0px, 2000px;}
+
+}
 
