@@ -1,7 +1,15 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<div id="welcome_greet"><%= @user.fname %>, welcome to Story_Builder!</div>
+
+<div id='stp'><h3>Story_Builder is a collabortive space for kids who like to read and write stories.</h3></div>
+
+<div id='wel2'><h3>Story_Builder allows writers to start a new story or collaborate on an existing story.</h3></div>
+
+<div id='wel3'><h3>Write a story with friends or classmates and publish it to Story_Builder when it's complete.</h3></div>
+
+<div id='wel4'><h3><%= @user.fname %>, feel free to browse through our comunity of writers.</h3></div>
 
 <% @users.each do |u| %>
-<div><a href="/users/<%= u.id %>"><%= u.username %></a></div>
-
+<div id='wel5'><a href="<%= "/users/#{u.id}" %>"><%=u.username %></a></div>
 <% end %>
+
+

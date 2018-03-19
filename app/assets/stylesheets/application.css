@@ -43,7 +43,6 @@ h1 span { display:inline-block; animation:float .2s ease-in-out infinite; }
 }
 body:infinite span { animation:bounce 1s; }
 
-
 @keyframes bounce {
   0% { transform:translate(0); }
   5% { transform: rotateX(20deg) translateY(4px) rotate(6deg); }
@@ -74,29 +73,58 @@ h1 span:nth-child(14){ animation-delay:.65s; }
 
 #letters{
 	height: 200px;
-    width: 670px;
+  width: 670px;
 	margin: auto;
 	margin-left:
 	background: yellow;
 }
-
 #navbar{
-	height:50px; 
-	width:100%;
-	display: inline-block;
-	font-size: 30px;
-
-
+height:50px; 
+width:100%;
+display: inline-block;
+font-size: 30px;
 }
 
 .linktabs{
-	display:inline-block;
-	margin-left: 135px;
-	font-family: 'signika';
-}
+display:inline-block;
+margin-left: 135px;
+font-family: 'signika';
+ } 
 
+ #loginForm{
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 30px;
+ }
 
-#signup{
-	text-align: center;
+ #login{
+  font-size: 30px;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  text-align: left;
+  margin: auto;
+  text-align: center;
+ }
+ #signup{
+  font-size: 30px;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  text-align: left;
+  margin: auto;
+  text-align: center;
 
-}
+ }
+ #signForm{
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  font-size: 30px;
+
+ }

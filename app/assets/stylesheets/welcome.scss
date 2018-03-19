@@ -1,3 +1,144 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#welcome_greet{
+	height: 80px;
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+	-webkit-animation: mymove 25s infinite; 
+    animation: mymove 25s infinite;
+}
+
+#stp{
+	height: 80px;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	-webkit-animation: twomove 2s infinite; 
+    animation: twomove 2s infinite;
+	
+}
+@keyframes mymove {
+     0% {top: 0px; left: 0px; color: green;}
+    25% {top: 0px; left: 0px; color: red;}
+    50% {top: 0px; left: 0px; color: blue;}
+    75% {top: 0px; left: 0px; color: yellow;}
+    100% {top: 0px; left: 0px; color: purple;}
+}
+#wel2{
+	height: 80px;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	-webkit-animation: rocker 2s infinite; 
+	animation: twomove 2s infinite;
+}
+#wel3{
+	height: 80px;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	-webkit-animation: rocker 2s infinite; 
+    animation: twomove 2s infinite;
+}
+@keyframes rocker {
+     0% {top: 0px; left: 0px;}
+    25% {top: 0px; left: 10px;}
+    50% {top: 0px; left: 0px;}
+    75% {top: 0px; left: 10px;}
+    100% {top: 0px; left: 0px;}
+}
+#wel4{
+	height: 80px;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+#wel5{
+	height: 80px;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+#profHead{
+	height: 80px;
+	width: 500px;
+	font-size: 50px;
+	text-align: left;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	margin-left: 465px;
+	-webkit-animation: mymove 25s infinite; 
+    animation: mymove 25s infinite;
+}
+#profname{
+	height: 80px;
+	width: 100%;
+	font-size: 30px;
+	margin-top: 20px;
+
+}
+
+#profuser{
+	height: 80px;
+	width: 100%;
+	font-size: 30px;
+	margin-top: 20px;
+
+
+}
+
+#profemail{
+	height: 80px;
+	width: 100%;
+	font-size: 30px;
+	margin-top: 20px;
+
+}
+
+#profcont{
+	height: 300px;
+	width: 600px;
+	font-size: 30px;
+	margin-left: 470px;
+	text-align: left;
+}
+
+#pcont{
+	height: 300px;
+	width: 500px;
+	margin-left: 950px;
+	margin-top: -350px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#cont2{
+	height: 100px;
+	width: 200px;
+	text-align: left;
+	margin-left: 170px;
+}
+
+#proflinks{
+	height: 150px;
+	width: 400px;
+	margin-top: 75px;
+	margin-left: 505px;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+
+
