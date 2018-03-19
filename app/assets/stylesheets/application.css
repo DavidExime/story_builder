@@ -52,7 +52,7 @@ body:infinite span { animation:bounce 1s; }
   100%{ transform:translate(0); }
 }
 
-span:nth-child(4n-1) { color:hsl(0, 100%, 55%); text-shadow:1px 1px hsl(1, 75%, 45%), 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(70, 75%, 45%); }
+span:nth-child(4n-1) { color:hsl(0, 100%, 55%); text-shadow:100px 1px hsl(1, 75%, 45%), 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(70, 75%, 45%); }
 span:nth-child(4n-1) { color:hsl(0, 35%, 55%); text-shadow:1px 1px hsl(1, 35%, 45%), 2px 2px hsl(135, 35%, 45%), 3px 3px hsl(135, 35%, 45%), 4px 4px hsl(200, 35%, 45%); }
 span:nth-child(4n-2) { color:hsl(0, 35%, 60%); text-shadow:1px 1px hsl(1, 25%, 50%), 2px 2px hsl(155, 25%, 50%), 3px 3px hsl(155, 25%, 50%), 4px 4px hsl(40, 25%, 50%); }
 span:nth-child(4n-3) { color:hsl(0, 65%, 60%); text-shadow:1px 1px hsl(3, 45%, 50%), 2px 2px hsl(30, 45%, 50%), 3px 3px hsl(30, 45%, 50%), 4px 4px hsl(30, 45%, 50%); }
@@ -84,7 +84,6 @@ h1 span:nth-child(14){ animation-delay:.65s; }
 	height:50px; 
 	width:100%;
 	display: inline-block;
-	border: 1px solid black;
 	font-size: 30px;
 
 
@@ -94,4 +93,10 @@ h1 span:nth-child(14){ animation-delay:.65s; }
 	display:inline-block;
 	margin-left: 135px;
 	font-family: 'signika';
+}
+
+
+#signup{
+	text-align: center;
+
 }
