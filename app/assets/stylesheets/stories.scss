@@ -119,14 +119,10 @@
 }
 
 
-// <div id='showTitle'><h3><%= @current_story.title %></h3><br></div>
-// <div id='showGenre'><%= @current_story.genre %><br></div>
-// <div id='showContent'><%= @current_story.content %></div>
+#storyGenre{
+	text-align: center;
+}
 
-// <div id='authors'><%= @current_story %></div>
-
-
-// <div id='showAdd'>Contribute to <%= @current_story.title %></div>
-// <div class='adding'>
-
-
+#storyType{
+	text-align: center;
+}
