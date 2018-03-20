@@ -193,15 +193,23 @@
 	height: 330px;
 	margin-top: 20px;
 	width: 100%;
+	margin-left: 15px;
 	// border: 1px solid black;
-	background-color: black;
-	background:url(../assets/fight.jpg);
-	animation: walk-east 2.0s steps(8) infinite;
+	// background-color: black;
+	// background:url(../assets/cat.gif);
+	// animation: walk-east 2.0s steps(8) infinite;
 }
 @keyframes walk-east {
 	from { background-position: 0px; }
-	to { background-position: -960px; }
+	// to { background-position: -960px; }
 
+}
+.pic{
+	height: 330px;
+	width: 24%;
+	border: 1px solid black;
+	display: inline-block;
+	margin-left: 0px;
 }
 #contentStory{
 	height: 100px;
@@ -209,4 +217,20 @@
 	margin-bottom: 15px;
 	margin: auto;
 	font-size: 25px;
+}
+#pic1{
+	background:url(../assets/cat.gif);
+
+}
+#pic2{
+	background:url(../assets/spaceman.gif);
+	
+}
+#pic3{
+	background:url(../assets/doggie.gif);
+	
+}
+#pic4{
+	background:url(../assets/bomb.gif);
+	
 }
