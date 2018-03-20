@@ -105,13 +105,13 @@
 }
 #showContent{
 	font-size: 30px;
-	width: 100%;
+	width: 80%;
 	height: 275px;
 	background: orange;
 	color: black;
-	margin-left: 10px;
-	margin-top: px;
-	overflow: none;
+	margin-left: 110px;
+	margin-top: 10px;
+	overflow: scroll;
 }
 
 #storyGenre{
@@ -135,7 +135,7 @@
 }
 #showAdd{
 	height: 60px;
-	width: 400px;
+	width: 600px;
 	margin: auto;
 	text-align: center;
 	font-size: 35px;
