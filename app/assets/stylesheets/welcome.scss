@@ -197,21 +197,5 @@ background-color: black;
    background-color: yellow;
 }
 
-#sonic{ 
-	background:url(../assets/rabbitflying.gif);
-	width: 100%;
-	height: 325px;
-	overflow: none;
-	animation: run 50.0s steps(500) infinite, slide 10s steps(500) infinite;
-	background-image: no-repeat;
-	margin-top: 20px;
-    margin-bottom: 100px;
-    border: 1px solid black;
-}
-@keyframes run {
-	from { background-position: 600% 0px, 0px, 0px, 0px; }
-	to { background-position: -600% 0px, 1000px, 0px, 2000px;}
-
-}
 
 
