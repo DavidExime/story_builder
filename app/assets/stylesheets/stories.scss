@@ -13,6 +13,37 @@
     text-align: left;
 
 }
+
+
+#storylist{
+	font-size: 25px;
+	width: 40%;
+    height: 200px;
+    margin: auto;
+}
+
+#storyGenre{
+	height: 50px;
+	width: 400px;
+	text-align: left;
+}
+
+#storyresults{
+	height: 400px;
+	width: 30%;
+	margin: auto;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+#titleList{
+	height: 50px;
+	width: 400px;
+	text-align: center;
+}
+
+
+
 @keyframes swing {
        
     0% {top: 0px; left: 0px; background: white; color: black;}
@@ -154,5 +185,19 @@
 	background: white;
 	margin: auto;
 	margin-top: 10px;
+
+}
+
+#animation{
+	height: 330px;
+	width: 100%;
+	// border: 1px solid black;
+	background-color: black;
+	background:url(../assets/megaman.png);
+	animation: walk-east 2.0s steps(8) infinite;
+}
+@keyframes walk-east {
+	from { background-position: 0px; }
+	to { background-position: -960px; }
 
 }

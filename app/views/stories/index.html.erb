@@ -1,12 +1,12 @@
 <div id="storylist"><h1>List Of Stories</h1></div>
 
+<div id="storyresults">
 <% @stories.each do |s| %>
 	
-	<a href="/stories/<%= s.id %>"><div id="titleList">Title:</div><div 
-
-		id="storyName"><%= s.title %></div></a><br>
-	</div>
-	
-	<div id="storyGenre">Genre: </div><div id="storyName"><%= s.genre %>
-</div>
+        <div id='titleList'>Title: <a href="/stories/<%= s.id %>"> <%= s.title %></a><br></div>
+	   
+	    <div id="storyGenre">Genre: <%= s.genre %></div>
 <% end %>
+</div>
+
+<div id='animation'></div>
