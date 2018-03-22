@@ -111,6 +111,7 @@ border-radius: 25px;
   text-align: left;
   margin: auto;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
  }
  #signup{
   font-size: 30px;
@@ -129,5 +130,6 @@ border-radius: 25px;
   margin: auto;
   margin-top: 0px;
   font-size: 30px;
-
+}
  }
+
